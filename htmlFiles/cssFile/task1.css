@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+body {
+  border: 8px solid red;
+  outline: 8px solid blue;
+  margin: 60px auto;
+  width: 40%;
+  transition: transform 2s ease-in-out;
+}
+body:hover {
+  box-shadow: 10px 2px 2px 2px black;
+  transform: translateX(400px);
+  cursor: pointer;
+}
+
+#heading {
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(147, 240, 55, 0.445);
+}
+
+#firstdiv,
+seconddiv {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.camaraimages {
+  display: flex;
+  margin-top: 20px;
+  gap: 5px;
+}
+.camaraimages img {
+  height: 100px;
+  width: 100px;
+  gap: 10px;
+}
+.camaratext h1 {
+  font-size: small;
+  margin-left: 10px;
+  align-items: center;
+}
+.maltiplexerimage {
+  display: flex;
+  justify-content: center;
+}
+.computerimage {
+  display: flex;
+  justify-content: end;
+}
+.computerimage h1 {
+  font-size: small;
+}
+.modulatortext h1 {
+  display: flex;
+  justify-content: end;
+  font-size: small;
+}

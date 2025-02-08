@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+body {
+  margin-top: 10px;
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 10px 10px;
+}
+.first,
+.second {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 0px 10px;
+ 
+}
+.center1 img {
+  height: 300px;
+  width: 300px;
+  border-bottom: 5px solid transparent;
+  border-radius: 50% 50% 45% 45%;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(blue, red) border-box;
+
+  transition: all 0.5s ease-in-out;
+
+}
+.center1 img:hover {
+  box-shadow: 0px 0px 5px 0px red;
+  transform: scale(1.02);
+}
+.center1 {
+  padding: 0px 100px 0px 100px;
+}
+
+.center1text {
+  margin-top: 50px;
+}
+.second1 {
+  border: 2px solid blue;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50% 50% 45% 45%;
+  margin-top: 10px;
+}
+.second3 {
+  border: 2px solid red;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  border-radius: 50% 50% 45% 45%;
+}
+.second3:hover {
+  box-shadow: 0px 0px 10px 0px blue;
+  transform: scale(1.02);
+}
+
+.footertext {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.second1:hover {
+  box-shadow: 0px 0px 10px 0px red;
+  transform: scale(1.02);
+}
+.footer {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 10px 10px;
+  margin-top: 24px;
+}
